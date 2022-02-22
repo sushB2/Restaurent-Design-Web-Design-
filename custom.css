@@ -1,0 +1,546 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+/*
+font-family: 'Playball', cursive;
+font-family: 'Sedgwick Ave Display', cursive;
+font-family: 'Poppins', sans-serif;*/
+
+
+body{
+
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-section{
+
+background: black;
+
+padding: 16px 0;
+}
+
+.header-info{
+    margin-bottom: 0px;
+    margin-left: 38px;
+}
+.header-info li{
+    color: white;
+    font-size: 18px;
+}
+.header-info li span{
+    margin-left: 5px;
+}
+
+
+.social-link{
+    text-align: right;
+    margin-bottom: 0;
+}
+.social-link li{}
+.social-link li a{
+    color: white;
+    padding-left: 5px;
+}
+.social-link li a: hover{}
+
+.banner-section{
+    background: url(../images/Home.jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar-brand{}
+.navbar-brand img{}
+.bg-light {
+    background-color: #f8f9fa00 !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+}
+.navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .nav-link.active {
+    color: #45a8b2;
+}
+.banner-content{
+    margin-top: 140px;
+}
+.banner-content h3{
+    font-size: 50px;
+    color: #b0dddd;
+    font-family: 'Playball', cursive;
+}
+.banner-content h1{font-size: 70px;color: white;font-family: 'Playball', cursive;line-height: 67%;}
+.banner-content span{
+    width: 100px;
+    height: 3px;
+    background: #b0dddd;
+    display: inline-block;
+}
+.banner-content p{
+        font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+}
+.banner-content .btn{
+    border: 2px solid white;
+    padding: 13px 1px;
+    display: inline-block;
+    border-radius: 0;
+}
+.banner-content .btn strong{
+    background: white;
+    padding: 10px 30px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: black;
+    font-size: 20px;
+    margin: 4px;
+}
+.banner-content .btn:hover{}
+
+
+.our-story-section{
+    padding: 50px;
+}
+.our-story-content{text-align: center;}
+.our-story-content h4{
+    font-family: 'Playball', cursive;
+    font-size: 30px;
+    color: #45a8b2;
+}
+.our-story-content h1{
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.our-story-content span{
+    display: inline-block;
+    width: 100px;
+    height: 2px;
+    background: #3f69b6;
+}
+.our-story-content p{
+    color: gray;
+    font-size: 17px;
+    max-width: 552px;
+    margin: 40px auto;
+}
+.btn-custom{
+    font-size: 20px;
+    color: black;
+    border: 1px solid;
+    border-radius: 0;
+    padding: 9px 55px;
+}
+
+
+.our-story-img{}
+.our-story-img img{}
+
+
+
+.menu-section{
+    background: url(../images/backmenu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 100px;
+}
+
+.menu-section::before{
+    content: "";
+    position: absolute;
+    background: #00f3ff0a;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.menu-section .nav-tabs{
+    border-bottom: 1px solid #dee2e6;
+    justify-content: center;
+}
+
+.menu-section .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    background-color: #fff0;
+    border-color: #dee2e600 #dee2e600 #fff0;
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.menu-section .nav-tabs .nav-link.active,.menu-section .nav-tabs .nav-item .nav-link:hover{
+    
+    border-bottom: 2px solid #45a8b2 !important;
+    color: #45a8b2 !important;
+}
+
+.menu-section .nav-tabs .nav-item {
+
+    margin-bottom: 30px;
+}
+
+.menu-section .nav-tabs {
+    border-bottom: 1px solid #dee2e600 !important;
+}
+
+.menu-section .tab-content > .tab-pane {
+
+    background: black;
+}
+
+.heading{
+    text-align: center;
+    margin-bottom: 54px;
+}
+.heading p{
+    font-family: 'Playball', cursive;
+    font-size: 18px;
+    color: #45a8b2;
+}
+.heading h1{
+    font-size: 45px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+.heading span{
+    background: #45a8b2;
+    width: 69px;
+    height: 2px;
+    display: inline-block;
+}
+
+
+
+.menu-list{
+    color: white;
+    padding: 20px 10px;
+}
+.menu-list h2{border-bottom: 1px solid;margin: 20px;}
+.menu-list ul{}
+.menu-list li{
+    margin-bottom: 15px;
+}
+.menu-list li p{
+    margin-bottom: 0;
+}
+.menu-list li span{
+    color: #686565;
+}
+
+
+
+.chef-rememended-section{
+    background: url(../images/wine.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 40px;
+}
+.chef-rememended-section::before{
+    content: "";
+    position: absolute;
+    background: #f2f1f161;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.food-gallery{
+    position: relative;
+    max-height: 213px;
+    overflow: hidden;
+}
+.food-gallery::before{
+     content: "";
+    background: #baafc5a3;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    transition: all 0.5s;
+}
+
+.food-gallery:hover::before{
+    width: 100%;
+
+} 
+
+.food-gallery:hover p{
+    apacity: 1;
+}
+
+.food-gallery img{}
+.food-gallery p{
+    position: absolute;
+    bottom: 0;
+    left: 26px;
+    color: white;
+    apacity: 0;
+    transition: 0.5s;
+}
+.food-gallery p span{
+    color: #090808;
+        display: block;
+}
+
+
+.features-section{
+    padding: 8px 0;
+}
+.feature{
+    text-align: center;
+}
+.feature img{}
+.feature h3{
+    margin: 30px 0 15px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.feature p{}
+
+
+.book-section{
+    background: url(../images/BookATable.jpg);
+    padding: 100px 0;
+    position: relative;
+}
+.book-section::before{
+    content: "";
+    position: absolute;
+    background: #00000073;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.reservation{}
+.reservation input{}
+.reservation .btn{}
+
+
+
+.event-section{
+    background: url(../images/upevent.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 100px 0;
+}
+.event-section::before{
+    content: "";
+    position: absolute;
+    background: #ffffff57;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.event{}
+.event-schedule{
+    width: 69%;
+    background: white;
+    margin: 0 auto;
+    transform: translateY(-33px);
+    padding: 10px 16px;
+}
+.event-schedule ul{
+    /* overflow: hidden; */
+}
+.event-schedule ul li{
+    /* float: left; */
+}
+.event-schedule ul li p{
+    border: 1px solid #45a8b2;
+    color: #45a8b2;
+    text-align: center;
+    padding: 14px;
+    font-size: 14px;
+}
+.event-schedule ul li p span{
+    display: block;
+}
+.event-schedule h3{
+    font-size: 20px;
+}
+.event-schedule ul li span{
+    /* color: #999; */
+    font-size: 14px;
+}
+
+
+.contact-section{
+    background: url(../images/map.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* height: 60%; */
+}
+.address{
+    background: black;
+    color: white;
+    padding: 60px 60px;
+}
+.address-heading{
+    font-family: 'Playball', cursive;
+    color: #45a8b2;
+}
+.address p{
+    /* color: #45a8b2; */
+}
+.address h1{}
+.address > span{
+    width: 100%;
+    height: 2px;
+    background: #5a7fa9;
+    display: inline-block;
+}
+.address ul{}
+.address ul li{}
+.address ul li span.box{
+    margin-right: 14px;
+    border: 1px solid #45A8B2;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+}
+.address ul li p{
+    display: inline-block;
+}
+.address ul li p strong{}
+.address ul li p span{}
+.address .btn{
+    border: 1px solid white;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 0;
+}
+
+
+.google-icon{
+    position: absolute;
+    right: 10%;
+    top: 15%;
+}
+.google-icon img{}
+
+
+
+footer{
+    background: black;
+}
+.footer-logo{
+}
+.footer-logo img{
+    padding: 14px 0px;
+    margin-left: -12px;
+}
+.footer-address{}
+.footer-address li{}
+.footer-address li span{color: #888;padding: 10px 12px;display: inline-block;}
+.footer-address li span i{
+    color: #999;
+}
+
+
+.footer-social{
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+.footer-social li{}
+.footer-social li a{
+    color: #999;
+}
+.footer-social li a: hover{}
+
+
+.opening{color: white;padding: 60px 60px;margin-top: -24px;display: inline-block;}
+.opening h2{
+    color: white;
+    display: inline-block;
+    margin-top: -26px;
+}
+.opening span{
+    width: 14%;
+    height: 1px;
+    background: #45A8B2;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+
+.time{
+    color: #999;
+    display: block;
+    margin-bottom: 15px;
+}
+.time span{width: 59%;display: inline-block;}
+.time strong{
+    display: inline-block;
+    font-weight: 800;
+}
+
+
+.newsletter{
+}
+.newsletter h2{
+    color: white;
+    display: inline-block;
+    margin-top: 25px;
+}
+.newsletter span{
+    width: 61%;
+    height: 1px;
+    background: #45A8B2;
+    display: inline-block;
+    margin-bottom: 28px;
+}
+.newsletter input{
+    padding: 10px 10px;
+    background: #181819;
+    color: #999;
+    display: inline-block;
+    margin-bottom: 21px;
+}
+.newsletter .btn{
+    padding: 7px 10px;
+    color: white;
+    display: inline-block;
+    background: #45A8B2;
+}
+
+
+.top-footer{
+    background: black;
+    padding: -9px 0;
+}
+.arrow{
+}
+.arrow img{}
+
+.top-footer p{
+    color: gray;
+}
+.footer-menu{
+    margin-bottom: 0;
+}
+.footer-menu li{
+    display: inline-block;
+}
+.footer-menu li a{
+    margin-left: 31px;
+    color: gray;
+}
+.footer-menu li a:hover
+
